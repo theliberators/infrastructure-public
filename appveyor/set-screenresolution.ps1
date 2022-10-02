@@ -119,6 +119,6 @@ namespace Resolution
     } 
 } 
 "@ 
-Add-Type $pinvokeCode -ErrorAction SilentlyContinue 
+
 [Resolution.PrmaryScreenResolution]::ChangeResolution($width,$height) 
 }
