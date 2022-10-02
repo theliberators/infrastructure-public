@@ -81,7 +81,7 @@ namespace Resolution
                 int iRet = User_32.ChangeDisplaySettings(ref dm, User_32.CDS_TEST); 
                 if (iRet == User_32.DISP_CHANGE_FAILED) 
                 { 
-                    return $"Unable To Process Your Request. Error [{iRet}]. Sorry For This Inconvenience."; 
+                    return $"Unable To Process Your Request. Sorry For This Inconvenience."; 
                 } 
                 else 
                 { 
