@@ -81,6 +81,7 @@ namespace Resolution
                 int iRet = User_32.ChangeDisplaySettings(ref dm, User_32.CDS_TEST); 
                 if (iRet == User_32.DISP_CHANGE_FAILED) 
                 { 
+                    Write-Host iRet -ForegroundColor Red
                     return "Unable To Process Your Request. Sorry For This Inconvenience."; 
                 } 
                 else 
