@@ -232,6 +232,7 @@ namespace Resolution
                 }
                 else
                 {
+                
                     iRet = User_32.ChangeDisplaySettings(ref dm, User_32.CDS_UPDATEREGISTRY);
                     switch (iRet)
                     {
